@@ -1,0 +1,15 @@
+configureStore:({
+    reducer: {} Reducer bilgisi olmadığı için boş bırakılıyor.
+})
+
+
+Provider: Yardımcı component. Provider ile App'i sardığımız zaman
+App'in içerisindeki herhangi bir componentten storedaki bilgilere erişebilir hale geliriz.
+
+Redux State Slice: İhtiyaç duyulan bilgileri, değiştirilecek olan fonksiyonları sliceların 
+içerisinde yapıyoruz. Daha sonrasında sliceları birleştiriyoruz ortaya reducer çıkıyor.
+Store içerisinde bilgiler var bu bilgileri güncelleyeceğimiz yer slicelar.
+
+
+
+
